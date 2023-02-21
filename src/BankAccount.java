@@ -21,4 +21,11 @@ public class BankAccount {
     public void TakeMoney(int b){
         this.balance-=b;
     }
+
+    @Override
+    public String toString() {
+        return "BankAccount{" +
+                "balance=" + balance +
+                '}';
+    }
 }
